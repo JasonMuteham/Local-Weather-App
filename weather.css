@@ -1,0 +1,122 @@
+h1{
+    color: aliceblue;
+}
+
+html{
+    height: 100%;
+}
+
+
+
+body{
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+hr{
+    width: 80%;
+    background-color: aliceblue;
+}
+
+.box{
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+}
+
+#location{
+    color: grey;
+}
+
+
+.shake:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
+
+.display-4{
+    font-size: 2.2em;
+    color: aliceblue;
+}
+h2{
+    font-size: 1.8em;
+}
+.content-font{
+    font-size: 1em;
+    color: aliceblue;
+    line-height: 1;
+}
+
+@media (min-width: 576px)  {
+    .content-font {
+        font-size: 1em;
+    }
+    .box{
+        margin-top: 5%;
+    }
+}
+}
+
+@media (min-width: 768px) {
+    .content-font{
+        font-size: 1.5em;
+    }
+    .display-4{
+        font-size: 4em;
+    }
+    h2{
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 992px) {
+    .content-font {
+        font-size: 1.5em;
+    }
+    .display-4{
+        font-size: 4em;
+    }
+    h2{
+        font-size: 3em;
+    }
+}
+
+#weather-main{
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+
+#temp{
+    font-size: 1.5em;
+}
+#credit{
+    color: rgba(0,0,0,0.2);
+    font-size: 10px;
+}
